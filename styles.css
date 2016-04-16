@@ -1,6 +1,107 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
-
-h1 {
-    color: green;
+body {
+    background-image: url(images/hiking-the-sand-dunes.jpg);
+    background-size: stretch;
+    font-family: cursive;
+    background-attachment: fixed;
+}
+header.page-header{
+    background-color: goldenrod;
+    padding: 1rem;
+    width: 1250px;
+    border: 1px solid black;
+}
+.poem li::first-letter{
+    font-size: 130%;
+}
+aside h2{
+    padding-left: 55px;
+}
+aside h4{
+    text-align: center;
+    padding-right: 30px;
+    font-size: 120%;
+}
+.page-header h1{
+    margin-bottom: 0;
+}
+.page-header p{
+    margin-top: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+     font-family: fantasy;
+}
+aside.more-info{
+    background-image: url(images/sand.jpg);
+    width: 350px;  
+    float: left;
+    margin: 0 1.5%;
+    padding-left: 30px;
+    margin-top: 25px;
+    border: solid 1px black;
+}
+.social-links{
+    float: left;
+    font-size: 115%;
+    list-style-type: none;
+    margin: 0;
+    font-size: 125%;
+    text-align: center;  
+    padding-left: 110px;
+    padding-bottom: 20px;
+}
+small{
+    font-size: small;
+}
+.more-info img {
+    width: 175px;
+    height: auto;
+    text-align: left;
+    padding-left: 70px;
+}
+.info-links{
+    float: left;
+    list-style-type: none;
+    margin-bottom: 0;
+    font-size: 125%;
+    text-align: center;
+    padding-right: 25px;
+}
+section#content{
+    float: right;
+    margin: 0 1.5%;
+}
+footer.page-footer{
+    border: solid 1px black;
+    background-color: goldenrod;
+    clear: both;
+}
+.poem {
+    list-style-type: none;
+    font-size: 150%;
+    background-image: url(images/sand.jpg);
+    width: 750px;
+    border: solid 1px black;
+    text-align: center;
+}
+.photo{
+    float: left;
+    clear: left;
+}
+.poem li{
+    line-height: 1.8;
+}
+.citation{
+    font-size: small;   
+}
+.footer-top-right{
+    float: right;
+    padding-right: 15%;
+}
+.footer-top-left{
+    padding-left: 15px;
+}
+.footer-bottom{
+    text-align: center;
 }
